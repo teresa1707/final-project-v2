@@ -35,7 +35,7 @@ body {
 
 .bg-slider {
   height: 30vh;
-  background: url("./assets/Background-Full-HD-Images-Free-Download.png");
+  background: url("./assets/venise.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -55,7 +55,7 @@ body {
   font-size: $font-size-header;
   font-weight: 600;
   text-transform: capitalize;
-  color: bisque;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -67,17 +67,21 @@ body {
   margin-left: $margin-l;
   margin-top: 25px;
   background: url(./assets/search-black-small.png) center no-repeat;
-  background-color: $color-clair;
+  background-color: $color-basic;
   cursor: pointer;
 }
 .header input:hover {
   transform: scale(110%);
 }
+.slider {
+  text-align: center;
 
+  color: orangered;
+}
 //section dark
 .wrapper-dark {
   padding: 20px 0;
-  background-color: $color-taupe;
+  background-color: rgb(91, 66, 44);
 }
 
 .article-2 {
@@ -89,14 +93,12 @@ body {
   color: $color-clear;
   text-decoration: none;
 }
-.sec1-title {
-  padding: $padding-m 0;
-}
 
 h3 {
   font-size: 21px;
   font-weight: 500;
 }
+
 h3 img {
   position: relative;
   top: 4px;
@@ -204,7 +206,7 @@ p {
 
 //footer shortcut
 .wrapper-beige {
-  background-color: beige;
+  background-color: $color-clear;
   padding: $padding-m;
 }
 .title4 {
@@ -220,7 +222,7 @@ footer p {
 //footer footer
 footer .wrapper-dark {
   padding: 30px 0 20px 0;
-  background-color: $color-taupe;
+  background-color: rgb(91, 66, 44);
 }
 .footer-img {
   padding-bottom: $padding-s;

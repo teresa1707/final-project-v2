@@ -43,7 +43,7 @@ body {
 
 .bg-slider {
   height: 30vh;
-  background: url("./assets/Background-Full-HD-Images-Free-Download.png");
+  background: url("./assets/venise.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,7 +71,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  color: bisque;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ body {
   margin-left: 20px;
   margin-top: 25px;
   background: url(./assets/search-black-small.png) center no-repeat;
-  background-color: #ababad;
+  background-color: #f5f4f3;
   cursor: pointer;
 }
 
@@ -92,9 +92,14 @@ body {
           transform: scale(110%);
 }
 
+.slider {
+  text-align: center;
+  color: orangered;
+}
+
 .wrapper-dark {
   padding: 20px 0;
-  background-color: #55555d;
+  background-color: #5b422c;
 }
 
 .article-2 {
@@ -106,10 +111,6 @@ body {
 .sec1-title a {
   color: #dfd7c6;
   text-decoration: none;
-}
-
-.sec1-title {
-  padding: 15px 0;
 }
 
 h3 {
@@ -229,7 +230,7 @@ p {
 }
 
 .wrapper-beige {
-  background-color: beige;
+  background-color: #dfd7c6;
   padding: 15px;
 }
 
@@ -247,7 +248,7 @@ footer p {
 
 footer .wrapper-dark {
   padding: 30px 0 20px 0;
-  background-color: #55555d;
+  background-color: #5b422c;
 }
 
 .footer-img {
