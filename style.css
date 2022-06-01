@@ -43,7 +43,7 @@ body {
 
 .bg-slider {
   height: 30vh;
-  background: url("./assets/hearts-white-bgrd.jpg");
+  background: url("./assets/Background-Full-HD-Images-Free-Download.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,7 +71,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
-  color: #806d3c;
+  color: bisque;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ body {
   margin-left: 20px;
   margin-top: 25px;
   background: url(./assets/search-black-small.png) center no-repeat;
-  background-color: #f5f4f3;
+  background-color: #ababad;
   cursor: pointer;
 }
 
@@ -93,8 +93,8 @@ body {
 }
 
 .wrapper-dark {
-  padding: 40px 0;
-  background-color: #55555d;
+  padding: 20px 0;
+  background-color: #344949;
 }
 
 .article-2 {
@@ -126,6 +126,8 @@ h3 img {
 .p-dark {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 100;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .title {
@@ -167,10 +169,6 @@ h3 img {
   padding: 5px 0;
 }
 
-.title4 {
-  text-transform: uppercase;
-}
-
 .text2,
 .text,
 .text-section {
@@ -188,12 +186,72 @@ p {
   line-height: 15px;
 }
 
+.title3-photo img {
+  width: 100%;
+  border: 8px solid beige;
+  border-radius: 3px;
+}
+
+.title3-container {
+  margin: 15px 0;
+}
+
+.iconLike {
+  width: 60px;
+  height: 50px;
+  border: none;
+  background-color: beige;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #806d3c;
+  margin: 2px;
+}
+
+.tag {
+  height: 50px;
+  min-width: 70px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #806d3c;
+  margin: 2px;
+}
+
+.category {
+  padding: 10px;
+  text-align: center;
+}
+
+.category a {
+  text-decoration: none;
+}
+
 .wrapper-beige {
   background-color: beige;
+  padding: 15px;
+}
+
+.title4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #55555d;
+  padding: 10px 5px;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 13px;
+}
+
+footer .wrapper-dark {
+  padding: 30px 0 20px 0;
+  background-color: #344949;
 }
 
 .footer-img {
-  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*tablet*/
@@ -351,7 +409,7 @@ p {
     max-width: 33.33332%;
   }
   .bg-slider {
-    height: 640px;
+    height: 100vh;
   }
 }
 
